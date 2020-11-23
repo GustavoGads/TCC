@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+*{
+    margin:0;
+    padding:0;
+}
+#cabecalho{
+    height: 150px;
+    background-color: #7FB7BE;
+}
+
+#menu{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	font-size: 20px;
+}
+
+#menu ul {
+    list-style: none; /* tirar o formato de lista */
+}
+
+#menu li {
+	padding: 30px;
+	display: inline; /* deixar alinhado */ 
+}
+
+#menu ul li a{
+	text-decoration: none;
+    color: white; /* cor das letras do menu */
+}
+
+#menu li a:hover{
+	text-decoration: none; /* tirar o sublinhado dos links */
+    color: #FDCA40; /* cor do link quando eu passar o mouse*/
+    border-bottom: solid #713E5A 3px;
+    border-radius: 4px;
+}
+    
+#logo {
+        padding: 10px 0px;
+        display: block;
+        float: left;
+}
+
+#logo img {
+    display: block;
+}
+ 
+.sessao1 { /*conteudo 1*/
+    height: 700px; 
+    background-image: url('../imagens/backgroundconteudo1.jpg');
+}
+
+.cfoto {
+    height: 0;
+}
+
+.cfoto img {
+    width: 40%;
+    height: 622px;
+    object-fit: cover;
+    padding: 8px 0px;
+}
+
+
+.conteudo {
+    margin: 0px 70px 200px;
+    padding-right: 200px;
+    padding: 0px 200px;
+    width: 250px;
+    float: right;
+    font-size: 30px;
+    
+}
+
+.conteudo h1 {
+    padding-bottom: 25px;
+    font-size: 30px;
+    margin-bottom: 0.5em;
+    padding-top: 5px;
+}
